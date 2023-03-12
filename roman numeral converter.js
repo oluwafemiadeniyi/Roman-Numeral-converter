@@ -9,3 +9,5 @@ function convertToRoman(num) {
   {for(let i=0;i<key.length;i++){if(key[i]<=num){return romobj[key[i]]+convertToRoman(num-key[i]);break};}}
  else return ''
 }
+//testing the converter
+console.log(convertToRoman(109876))
